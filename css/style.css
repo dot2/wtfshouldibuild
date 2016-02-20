@@ -184,12 +184,16 @@ a:hover {
           align-items: center;
   color: #fff;
   padding: 5px;
-  font-size: 1.2; }
+  font-size: 1.2;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
   .by img {
     border-radius: 50%;
     margin-right: 5px;
     width: 30px;
     height: 30px; }
+  .by:hover {
+    background-color: rgba(22, 149, 231, 0.95); }
 
 .twitter-btn {
   right: 170px; }
